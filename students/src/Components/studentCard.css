@@ -1,0 +1,25 @@
+.Card {
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #DCE5E4;
+}
+
+.Pic {
+    width: 20%;
+    border: #DCE5E4 solid .5px;
+    border-radius: 90%;
+    margin: 3%;
+}
+
+.Name {
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.Other-Info {
+    margin-left: 6%;
+    font-weight: bold;
+    color: #4E6A67;
+}
