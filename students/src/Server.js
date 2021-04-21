@@ -22,7 +22,7 @@ function Server() {
 
   return (
     <div className="Main-Card">
-        <SearchForm/>,
+        <SearchForm students={studentsApi}/>,
         {studentsApi.map((student) => {
             return <StudentCard 
                         pic={student.pic}

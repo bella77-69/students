@@ -1,9 +1,11 @@
 import React from 'react';
+import GradesExpandable from './GradesExpandable';
 import './studentCard.css';
 
 const StudentCard = props => {
     console.log('Console for props:', props)
     return (
+        <>
         <div className="Card">
             <img className="Pic" src = {props.pic} alt={"Student's Pic"}></img>
             <div className="Info">
@@ -14,6 +16,8 @@ const StudentCard = props => {
                 <p className="Other-Info">Average: {props.grades.reduce((a,b) => a + parseInt(b), 0) / props.grades.length}%</p>
             </div>
         </div>
+        <GradesExpandable grades={props.grades}/>
+        </>
     )
 };
 

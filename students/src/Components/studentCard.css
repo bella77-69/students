@@ -1,8 +1,9 @@
+/* Styles for StudentCard.js */
 .Card {
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid #DCE5E4;
+    /* border-bottom: 1px solid #DCE5E4; */
 }
 
 .Pic {
@@ -20,6 +21,80 @@
 
 .Other-Info {
     margin-left: 6%;
+    font-weight: bold;
+    color: #4E6A67;
+}
+
+
+/* Styles for SearchForm.js */
+
+.Form {
+    border-bottom: 1px solid #DCE5E4;
+}
+
+.Input {
+    margin-bottom: 1%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.Search-Card {
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    /* border-bottom: 1px solid #DCE5E4; */
+    /* background-color: #F5F5F5; */
+}
+
+.Search-Pic {
+    width: 20%;
+    border: #DCE5E4 solid .5px;
+    border-radius: 90%;
+    margin: 3%;
+}
+
+.Search-Name {
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.Search-Other-Info {
+    margin-left: 6%;
+    font-weight: bold;
+    color: #4E6A67;
+}
+
+/* Styles for GradesExpandable.js */
+
+.Expand-Button {
+    width: 12%;
+    margin-bottom: 2%;
+    margin-top: -3%;
+    margin-left: 28%;
+    border: 2px #C2C2C2 solid;
+    border-radius: 5px;
+    color: #4E6A67;
+    font-size: 17px;
+}
+
+.Expand-Button:hover {
+    background-color: #3D3D3D;
+    color: white;
+}
+
+.Grades-Card {
+    margin-bottom: 2%;
+    margin-top: -1%;
+    display: flex;
+    flex-direction: column;
+    /* border-bottom: 1px solid #DCE5E4; */
+}
+
+.Grade {
+    margin-left: 28%;
+    font-size: 14px;
     font-weight: bold;
     color: #4E6A67;
 }
