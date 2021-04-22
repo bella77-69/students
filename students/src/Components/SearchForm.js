@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchGradesExpandable from './SearchGradesExpandable';
+import Tags from './Tags';
 import { useEffect, useState } from "react";
 import './studentCard.css';
 
@@ -42,6 +43,7 @@ function SearchFrom (props) {
                     </div>
                 </div>
                 <SearchGradesExpandable grades={filt.grades}/>
+                <Tags/>
                 </>
             )
         })}

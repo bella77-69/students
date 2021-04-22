@@ -7,7 +7,7 @@ const SearchGradesExpandable = props => {
     
     return (
         <>
-        <button className="Expand-Button" onClick={() => setExpanded(!expanded)}>See Test Scores</button>
+        <button className="Search-Expand-Button" onClick={() => setExpanded(!expanded)}>See Test Scores</button>
         {expanded && <div className="Grades-Card">
             <p className="Grade">Test 1:   {props.grades[0]}%</p>
             <p className="Grade">Test 2:   {props.grades[1]}%</p>
