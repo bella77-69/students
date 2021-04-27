@@ -112,11 +112,36 @@
     font-size: 17px;
 }
 
+.Search-Expand-Button:hover {
+    background-color: #3D3D3D;
+    color: white;
+}
+
 /* Styles for Tags.js */
 
 /* .Tags-Form {
     border-bottom: 1px solid #DCE5E4;
 } */
+
+.Tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 24.5%;
+    margin-top: -1%;
+    width: 30%;
+    list-style-type: none;
+}
+
+.Tag {
+    padding: 6px;
+    margin-right: 1%;
+    margin-top: 1%;
+    border: 2px #C2C2C2 solid;
+    border-radius: 5px;
+    color: #4E6A67;
+    font-size: 17px;
+}
 
 .Tags-Input {
     margin-bottom: 1%;

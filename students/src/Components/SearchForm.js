@@ -18,7 +18,7 @@ function SearchFrom (props) {
     }, [search]);
 
     function handleChange(e) {
-        // e.preventDefault();
+        e.preventDefault();
         setSearch(e.target.value);
     };
 
