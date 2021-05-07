@@ -1,6 +1,5 @@
 import React from 'react';
 import GradesExpandable from './GradesExpandable';
-import Tags from './Tags';
 import './studentCard.css';
 
 const StudentCard = props => {
@@ -18,7 +17,6 @@ const StudentCard = props => {
             </div>
         </div>
         <GradesExpandable grades={props.grades}/>
-        <Tags/>
         </>
     )
 };

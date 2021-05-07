@@ -4,3 +4,19 @@ body {
   font-family: 'Raleway', sans-serif;
   background-color: #B8CCCB;
 }
+
+.Main-Header-Box {
+  /* margin-top: 1%; */
+  background: linear-gradient(to right, #029199, rgb(255, 0, 0, 0));
+  padding-top: 1px; 
+  padding-bottom: 1px;
+}
+
+.Main-Header {
+  margin-left: 12%;
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: 'Bebas Neue', 'cursive';
+  color: white;
+  letter-spacing: 2px;
+}
