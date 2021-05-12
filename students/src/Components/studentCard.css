@@ -6,7 +6,6 @@
 
 .Pic {
     width: 20%;
-    border: #DCE5E4 solid .5px;
     border-radius: 90%;
     margin: 3%;
 }
@@ -26,22 +25,22 @@
 
 /* Styles for SearchForm.js */
 
-.Form {
-    border-bottom: 1px solid #DCE5E4;
-}
-
 .Input {
     margin-bottom: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 40%;
     font-size: 20px;
-    border: none;
+    border-radius: 10px;
     outline: none;
-    background: transparent;
-    color: #161c1c;
+    color: white;
+    background: #db7d00;
     
 }
 
 .Input::placeholder {
-    color: #161c1c;
+    color: white;
 }
 
 .Search-Card {
@@ -52,7 +51,6 @@
 
 .Search-Pic {
     width: 20%;
-    border: #DCE5E4 solid .5px;
     border-radius: 90%;
     margin: 3%;
 }
