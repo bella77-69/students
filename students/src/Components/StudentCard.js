@@ -2,6 +2,7 @@ import React from 'react';
 import GradesExpandable from './GradesExpandable';
 import './studentCard.css';
 
+// Each student card
 const StudentCard = props => {
     console.log('Console for props:', props)
     return (

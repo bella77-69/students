@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './studentCard.css';
 
+// Each student's grades after the search
 const SearchGradesExpandable = props => {
     // console.log('Console for props:', props)
     const [expanded, setExpanded] = useState(false);

@@ -1,6 +1,7 @@
 import Server from './Server';
 import './index.css';
 
+// The entire application
 function App() {
   return (
     <div>

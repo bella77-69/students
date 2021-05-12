@@ -3,6 +3,7 @@ import SearchGradesExpandable from './SearchGradesExpandable';
 import { useEffect, useState } from "react";
 import './studentCard.css';
 
+// The search form on top of the student cards
 function SearchFrom (props) {
     // console.log('Console for SearchForm props', props.students)
 

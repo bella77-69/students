@@ -4,6 +4,7 @@ import SearchForm from './Components/SearchForm';
 import axios from "axios";
 import './main-card.css';
 
+// Getting the data from external api and rendering it 
 function Server() {     
     const [studentsApi, setStudentsApi] = useState([]);
 
