@@ -1,13 +1,15 @@
+/* Styles for Server.js */
+
 .Main-Card {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 1%;
-    margin-bottom: 5%;
+    /* margin-top: 1%; */
+    margin-bottom: 3%;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: white;
     border-radius: 5px;
     box-shadow: #455F5D 3px 3px 3px 3px;
+    background: linear-gradient(to right, #9be0df, rgb(255, 0, 0, 0));
 }
